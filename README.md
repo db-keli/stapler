@@ -1,1 +1,1 @@
-# Fully Functional Blog Wed App Using Django
+# Fully Functional Blog Web App Using Django
