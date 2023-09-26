@@ -1,4 +1,3 @@
-### Stapler
-<p>
-Stapler is a blog app made with django
-</p>
+<h3>Stapler📎<h3>
+
+Still Under Development
