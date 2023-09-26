@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'blog_page.apps.BlogPageConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
+    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,6 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACKS = "uni_form"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
