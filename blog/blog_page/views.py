@@ -30,7 +30,6 @@ def about(request):
 
 class PostDetailView(DetailView):
     model = Post
-    
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
