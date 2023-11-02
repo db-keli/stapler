@@ -32,7 +32,8 @@
                   <div class="navbar-nav">
                     {% if user.is_authenticated %}
                       <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-                      <a style="" class="nav-item nav-link" href="{% url 'post-create' %}">Staple!</a>
+                      {% comment %} <a style="" class="nav-item nav-link" href="{% url 'post-create' %}">Staple!</a> {% endcomment %}
+                      <a class="nav-item nav-link" href="{% url 'post-create' %}">Staple!<img src="/media/icons/finale-removebg-preview.jpeg" alt="" width="30" height="30"></a>
                       <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
                     {% else %}
                     <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
@@ -72,6 +73,6 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+        <img src="/default.jpeg" alt="" width="30" height="24">
     </body>
 </html>
